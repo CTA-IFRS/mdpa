@@ -1,0 +1,67 @@
+/* ------------------- */
+/*   DEFAULT CUSTOMS   */
+/* ------------------- */
+h1{
+    padding-top: 5px;
+    padding-left: 0 !important;
+}
+
+h1 img{
+    width: 30px;
+    height: 30px;
+}
+
+h1 span{
+    font-size: 14px;
+    margin-left: 10px;
+    color: #ffffff !important;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+.bg-purple{
+    background-color: var(--purple);
+}
+
+.border-bottom-purple{
+    border-bottom: 7px solid #6f42c1 !important;
+}
+
+/* Link-card na index */
+a:hover div.card div.card-img-overlay p,
+a:focus .card div.card-img-overlay p,
+a:hover div.card div.card-img-overlay div small,
+a:focus .card div.card-img-overlay div small{
+    color: #6f42c1 !important;
+}
+
+/* ----------------- */
+/*   MEDIA QUERIES   */
+/* ----------------- */
+@media only screen and (min-width: 768px) {
+    #headerMenu li{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #headerMenu li{
+        margin: 5px 0;
+    }
+}
+
+/* ----------------- */
+/* ---  FOOTER   --- */
+/* ----------------- */
+footer a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.footer-relative {
+    position: absolute;
+    height: 56px;
+    width: 100%;
+    bottom: 0
+}
