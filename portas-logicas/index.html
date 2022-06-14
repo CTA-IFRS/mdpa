@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/high_contrast.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>MDPA - Portas Lógicas</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-purple">
+        <div class="col-10 col-sm-5 col-md-6 col-lg-4 p-0">
+            <a href="../" class="p-0 m-0 d-inline-flex">
+                <h1 class="d-flex align-items-center">
+                    <img src="../img/logo.png" alt="Logomarca da página contendo as iniciais M D P A">
+                    <span>Materiais Didáticos Pedagógicos Acessíveis</span>
+                </h1>
+            </a>
+        </div>
+        <button class="navbar-toggler col-2 col-md-5" type="button" data-toggle="collapse" data-target="#headerMenu" aria-controls="headerMenu" aria-expanded="false" aria-label="Menu expansível">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse" id="headerMenu">
+            <ul class="navbar-nav ml-auto text-right">
+            <li class="nav-item">
+                <a class="btn btn-outline-light btn-sm" tabindex="0" role=link id="high_contrast" aria-checked="false"><i class="bi bi-hexagon-half"></i> Alto contraste</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTEÚDO DA PÁGINA -->
+    <main class="container">
+        <div class="row-col">
+            <h2 class="mx-auto my-5">Portas Lógicas</h2>
+            <p>O objetivo pedagógico deste material é apresentar alguns dos itens introdutórios da álgebra booleana, mais especificamente às operações lógicas vinculadas ao ensino de eletrônica digital e de programação (principalmente para uso em Sistemas Embarcados - Linguagem C, Python, etc.).</p>
+            <p>Os conteúdos que podem ser trabalhados com esse material vão desde os conceitos básicos da lógica booleana, seja auxiliando na identificação da simbologia destas, passando pela assimilação do que cada lógica realiza individualmente até a criação de circuitos lógicos conceituais. Tocante às linguagens de programação, pode-se relacionar tais portas aos operadores lógicos aplicados em diversas estruturas, como as de seleção (if e else) e de repetição (for, while e do-while), por exemplo, onde muitos alunos apresentam dificuldades de uso.</p>
+            <p>O material é composto pela representação das portas lógicas em tinta e uma lâmina PET sobreposta contendo os elementos gráficos em relevo e o texto em Braille.</p>
+
+            <div class="text-center">
+                <img src="img/portas-exemplo.png" class="w-75 border rounded p-2">
+            </div>
+
+            <p class="mt-3">O material contém o título (Portas Lógicas) e a representação das portas lógicas uma abaixo da outra, estando o símbolo gráfico à esquerda e sua legenda em texto à direita, na ordem apresentada abaixo.</p>
+            
+            <h3 class="pt-4">Porta lógica NOT:</h3>
+            
+            <div class="text-center">
+                <img src="img/porta-NOT.png" class="w-50 border rounded p-2">
+            </div>
+
+            <p class="mt-3">O objetivo é reconhecer o símbolo deste operador que realiza o complemento lógico da informação booleana em sua entrada, ou seja, entrega na saída o elemento do conjunto que, unido a entrada, forma o conjunto imagem da álgebra booleana, a saber, {0,1}. Assim, se a entrada é “0”, a saída será, portanto, “1”. Diz-se comumente que, frente a isso, a porta lógica NOT “inverte” o estado lógico da entrada.</p>
+            <P>O material conformado identifica o símbolo à esquerda e o referido nome, à direita. Observa-se que o símbolo é preenchido na cor verde, útil aos alunos com baixa visão. Também se observa que a porta NOT tem apenas uma entrada e uma saída.</P>
+
+            <h3 class="pt-4">Porta lógica AND:</h3>
+
+            <div class="text-center">
+                <img src="img/porta-AND.png" class="w-50 border rounded p-2">
+            </div>
+
+            <p class="mt-3">O objetivo é reconhecer o símbolo deste operador que realiza a operação homônima da lógica booleana, ou seja, somente quando as duas entradas forem “1” lógico é que a saída resultará em igual “1”. Para todas as demais combinações presentes nas entradas a saída é “0”.</p>
+            <p>O material conformado identifica o símbolo à esquerda e o referido nome, à direita. Pode-se assim observar que as laterais horizontais são paralelas, que a parte da entrada é também retilínea e a frente, posicionada a direita, difere por ser curvilínea. A cor de preenchimento vermelha visa auxiliar os alunos com baixa visão, no processo de identificação desta lógica.</p>
+
+            <h3 class="pt-4">Porta lógica OR:</h3>
+
+            <div class="text-center">
+                <img src="img/porta-OR.png" class="w-50 border rounded p-2">
+            </div>
+
+            <p class="mt-3">O objetivo é reconhecer o símbolo deste operador que realiza a operação homônima da lógica booleana, ou seja, somente quando as duas entradas forem “0” lógico é que a saída resultará em igual “0”. Para todas as demais combinações presentes nas entradas a saída é “1”.</p>
+            <p>O material conformado identifica o símbolo à esquerda e o referido nome, à direita. Pode-se assim observar que todas as faces do símbolo são curvilíneas. A cor de preenchimento azul visa auxiliar os alunos com baixa visão, no processo de identificação desta porta lógica.</p>
+
+            <h3 class="pt-4">Porta lógica NAND:</h3>
+
+            <div class="text-center">
+                <img src="img/porta-NAND.png" class="w-50 border rounded p-2">
+            </div>
+
+            <p class="mt-3">O objetivo é reconhecer o símbolo deste operador que realiza a operação combinada de duas outras portas lógicas já vistas: a AND e a NOT. Em resumo, tendo-se a operação AND aplicada sobre duas entradas, o resultado desta lógica é então submetido à lógica NOT. Como resultado, tem-se a lógica AND com sua saída complementada. Pode-se assim observar este combinado de AND e NOT no formato misto da simbologia, onde tem-se da esquerda para a direita (das entradas para a saída), uma porta AND com um inversor (a “bolinha” também simboliza inversor quando associada a outra porta) em sua saída.</p>
+            <p>O material conformado identifica o símbolo à esquerda e o referido nome, à direita, onde a que todas as faces do símbolo são curvilíneas. As cores de preenchimento vermelha e verde, visam auxiliar os alunos com baixa visão, no processo de identificação desta lógica que combina, respectivamente, a AND e a NOT.</p>
+
+            <h3 class="pt-4">Porta lógica NOR:</h3>
+
+            <div class="text-center">
+                <img src="img/porta-NOR.png" class="w-50 border rounded p-2">
+            </div>
+
+            <p class="mt-3">O objetivo é reconhecer o símbolo deste operador que realiza a operação combinada de duas outras portas lógicas já vistas: a OR e a NOT. Em resumo, tendo-se a operação OR aplicada sobre duas entradas, o resultado desta lógica é então submetido à lógica NOT. Como resultado, tem-se a lógica OR com sua saída complementada. Pode-se assim observar este combinado de OR e NOT no formato misto da simbologia, onde tem-se da esquerda para a direita (das entradas para a saída), uma porta OR com um inversor (a “bolinha” também simboliza inversor quando associada a outra porta) em sua saída.</p>
+            <p>O material conformado identifica o símbolo à esquerda e o referido nome, à direita, onde todas as faces do símbolo são curvilíneas. As cores de preenchimento azul e verde, visam auxiliar os alunos videntes ou com baixa visão, no processo de identificação desta lógica, respectivamente a OR e a NOT.</p>
+
+            <h3 class="pt-4">Porta lógica XOR:</h3>
+
+            <div class="text-center">
+                <img src="img/porta-XOR.png" class="w-50 border rounded p-2">
+            </div>
+
+            <p class="mt-3">O objetivo é reconhecer o símbolo deste operador que realiza a operação combinada portas AND, OR e NOT, ao implementar a função S = (A AND (NOT B)) OR ((NOT A) AND B)). Pela peculiaridade da lógica resultante, em resultar em “1” somente quando as entradas forem complementares, realiza o ou exclusivo, ou, como seu nome em inglês sugere, <span class="font-italic">EXCLUSIVE OR – XOR</span>. Assim, recebe simbologia própria pelo extenso uso.</p>
+            <p>O material conformado identifica o símbolo à esquerda e o referido nome, a direita, onde a que todas as faces do símbolo são curvilíneas e semelhantes a lógica OR, contudo com um arco a mais na seção das entradas. Quanto a cor utilizada no preenchimento, amarela, visa auxiliar os alunos videntes ou mesmo com baixa visão, no processo de identificação desta lógica.</p>
+
+            <h3 class="pt-4">Porta lógica XNOR:</h3>
+
+            <div class="text-center">
+                <img src="img/porta-XNOR.png" class="w-50 border rounded p-2">
+            </div>
+
+            <p class="mt-3">O objetivo é reconhecer o símbolo deste operador que realiza a operação combinada portas AND, OR e NOT, ao implementar a função S = (A AND B) OR ((NOT A)AND(NOT B)). Esta mesma equação pode ser expressa como NOT (XOR), pois também de forma peculiar, resulta “1” somente quando as entradas coincidirem iguais, realizando assim o não ou exclusivo, também conhecida como função coincidência, ou como seu nome em inglês sugere, <span class="font-italic">NOT EXCLUSIVE OR – XNOR</span>. Assim, recebe simbologia própria pelo extenso uso.</p>
+            <p class="mb-5">O material conformado identifica o símbolo à esquerda e o referido nome, a direita, onde a que todas as faces do símbolo são curvilíneas, com um arco a mais na face das entradas e um inversor na saída. As cores de preenchimento amarela e verde, visam auxiliar os alunos com baixa visão, no processo de identificação desta lógica que combina, respectivamente a XOR e a NOT.</p>
+
+        </div>
+    </main>
+
+    <footer class="page-footer font-small bg-purple mt-4">
+        <div class="footer-copyright text-center py-3">
+            <small class="text-light">Desenvolvido por CRTA | <a href="https://cta.ifrs.edu.br/">CTA - IFRS</a></small>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+    <!-- JS-Cookie -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.0/dist/js.cookie.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+    <script src="../js/high_contrast.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
